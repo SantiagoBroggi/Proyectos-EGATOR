@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsibe Multipage Education Website</title>
+
+    <!-- ========= CSS ========= -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- ========= REMIXICON ========= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+    <!-- ========= Swiper JS ========= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- ========= Estilo para dar Textura a imagen de fondo ========= -->
+    <style>
+        body{
+            background-image: url("../img/bg-texture.png");
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Sección NAV ************************************************************** -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>EGATOR</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+            <button id="close-menu-btn"><i class="ri-close-line"></i></button>
+        </div>
+    </nav>
+
+    <!-- Sección HEADER ************************************************************** -->
+    <header>
+        <div class="container header__container">
+            <!-- Parte izquierda del header -->
+            <div class="header__left">
+                <h1>Grow your skills to andvance your career path</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nulla, ipsum doloribus excepturi voluptate facere neque id vero perspiciatis velit, temporibus placeat unde quis culpa quidem ab possimus eos veritatis.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <!-- Parte derecha del header -->
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="../img/header.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección HEADER ************************************************************** -->
+    <section class="categories">
+        <!-- Categorias -->
+        <div class="container categories__container">
+            <!-- Categorias parte Izquierda -->
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, tenetur architecto commodi soluta quos voluptatem molestias numquam debitis eos rem explicabo quisquam possimus optio quibusdam minus deleniti qui distinctio adipisci.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <!-- Categorias parte Derecha -->
+            <div class="categories__right">
+                <!-- Blockchain ---------------------------------------------------- -->
+                <article class="category">
+                    <span class="category__icon">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10.7367 14.5876c.895.2365 2.8528.754 3.1643-.4966.3179-1.2781-1.5795-1.7039-2.5053-1.9117-.1034-.0232-.1947-.0437-.2694-.0623l-.6025 2.4153c.0611.0152.1328.0341.2129.0553Zm.8452-3.5291c.7468.1993 2.3746.6335 2.6581-.5025.2899-1.16213-1.2929-1.5124-2.066-1.68348-.0869-.01923-.1635-.03619-.2262-.0518l-.5462 2.19058c.0517.0129.1123.0291.1803.0472Z"/>
+                            <path fill="currentColor" fill-rule="evenodd" d="M9.57909 21.7008c5.35781 1.3356 10.78401-1.9244 12.11971-7.2816 1.3356-5.35745-1.9247-10.78433-7.2822-12.11995C9.06034.963624 3.6344 4.22425 2.2994 9.58206.963461 14.9389 4.22377 20.3652 9.57909 21.7008ZM14.2085 8.0526c1.3853.47719 2.3984 1.1925 2.1997 2.5231-.1441.9741-.6844 1.4456-1.4013 1.6116.9844.5128 1.485 1.2987 1.0078 2.6612-.5915 1.6919-1.9987 1.8347-3.8697 1.4807l-.454 1.8196-1.0972-.2734.4481-1.7953c-.2844-.0706-.575-.1456-.8741-.2269l-.44996 1.8038-1.09594-.2735.45407-1.8234c-.10059-.0258-.20185-.0522-.30385-.0788-.15753-.0411-.3168-.0827-.47803-.1231l-1.42812-.3559.54468-1.2563s.80844.215.7975.1991c.31063.0769.44844-.1256.50282-.2606l.71781-2.8766.11562.0288c-.04375-.0175-.08343-.0288-.11406-.0366l.51188-2.05344c.01375-.23312-.06688-.52719-.51125-.63812.01718-.01157-.79688-.19813-.79688-.19813l.29188-1.17187 1.51313.37781-.0013.00562c.2275.05657.4619.11032.7007.16469l.4497-1.80187 1.0965.27343-.4406 1.76657c.2944.06718.5906.135.8787.20687l.4375-1.755 1.0975.27344-.4493 1.8025Z" clip-rule="evenodd"/>
+                        </svg>                          
+                    </span>
+                    <h5>Blockchain</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <!-- Graphic Design ---------------------------------------------------- -->                
+                <article class="category">
+                    <span class="category__icon">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10.7367 14.5876c.895.2365 2.8528.754 3.1643-.4966.3179-1.2781-1.5795-1.7039-2.5053-1.9117-.1034-.0232-.1947-.0437-.2694-.0623l-.6025 2.4153c.0611.0152.1328.0341.2129.0553Zm.8452-3.5291c.7468.1993 2.3746.6335 2.6581-.5025.2899-1.16213-1.2929-1.5124-2.066-1.68348-.0869-.01923-.1635-.03619-.2262-.0518l-.5462 2.19058c.0517.0129.1123.0291.1803.0472Z"/>
+                            <path fill="currentColor" fill-rule="evenodd" d="M9.57909 21.7008c5.35781 1.3356 10.78401-1.9244 12.11971-7.2816 1.3356-5.35745-1.9247-10.78433-7.2822-12.11995C9.06034.963624 3.6344 4.22425 2.2994 9.58206.963461 14.9389 4.22377 20.3652 9.57909 21.7008ZM14.2085 8.0526c1.3853.47719 2.3984 1.1925 2.1997 2.5231-.1441.9741-.6844 1.4456-1.4013 1.6116.9844.5128 1.485 1.2987 1.0078 2.6612-.5915 1.6919-1.9987 1.8347-3.8697 1.4807l-.454 1.8196-1.0972-.2734.4481-1.7953c-.2844-.0706-.575-.1456-.8741-.2269l-.44996 1.8038-1.09594-.2735.45407-1.8234c-.10059-.0258-.20185-.0522-.30385-.0788-.15753-.0411-.3168-.0827-.47803-.1231l-1.42812-.3559.54468-1.2563s.80844.215.7975.1991c.31063.0769.44844-.1256.50282-.2606l.71781-2.8766.11562.0288c-.04375-.0175-.08343-.0288-.11406-.0366l.51188-2.05344c.01375-.23312-.06688-.52719-.51125-.63812.01718-.01157-.79688-.19813-.79688-.19813l.29188-1.17187 1.51313.37781-.0013.00562c.2275.05657.4619.11032.7007.16469l.4497-1.80187 1.0965.27343-.4406 1.76657c.2944.06718.5906.135.8787.20687l.4375-1.755 1.0975.27344-.4493 1.8025Z" clip-rule="evenodd"/>
+                        </svg>                          
+                    </span>
+                    <h5>Graphic Design</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <!-- Finance ---------------------------------------------------- -->
+                <article class="category">
+                    <span class="category__icon">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.6 16.733c.234.269.548.456.895.534a1.4 1.4 0 0 0 1.75-.762c.172-.615-.446-1.287-1.242-1.481-.796-.194-1.41-.861-1.241-1.481a1.4 1.4 0 0 1 1.75-.762c.343.077.654.26.888.524m-1.358 4.017v.617m0-5.939v.725M4 15v4m3-6v6M6 8.5 10.5 5 14 7.5 18 4m0 0h-3.5M18 4v3m2 8a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"/>
+                        </svg>                                                   
+                    </span>
+                    <h5>Finance</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <!-- Marketing ---------------------------------------------------- -->
+                <article class="category">
+                    <span class="category__icon">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10.7367 14.5876c.895.2365 2.8528.754 3.1643-.4966.3179-1.2781-1.5795-1.7039-2.5053-1.9117-.1034-.0232-.1947-.0437-.2694-.0623l-.6025 2.4153c.0611.0152.1328.0341.2129.0553Zm.8452-3.5291c.7468.1993 2.3746.6335 2.6581-.5025.2899-1.16213-1.2929-1.5124-2.066-1.68348-.0869-.01923-.1635-.03619-.2262-.0518l-.5462 2.19058c.0517.0129.1123.0291.1803.0472Z"/>
+                            <path fill="currentColor" fill-rule="evenodd" d="M9.57909 21.7008c5.35781 1.3356 10.78401-1.9244 12.11971-7.2816 1.3356-5.35745-1.9247-10.78433-7.2822-12.11995C9.06034.963624 3.6344 4.22425 2.2994 9.58206.963461 14.9389 4.22377 20.3652 9.57909 21.7008ZM14.2085 8.0526c1.3853.47719 2.3984 1.1925 2.1997 2.5231-.1441.9741-.6844 1.4456-1.4013 1.6116.9844.5128 1.485 1.2987 1.0078 2.6612-.5915 1.6919-1.9987 1.8347-3.8697 1.4807l-.454 1.8196-1.0972-.2734.4481-1.7953c-.2844-.0706-.575-.1456-.8741-.2269l-.44996 1.8038-1.09594-.2735.45407-1.8234c-.10059-.0258-.20185-.0522-.30385-.0788-.15753-.0411-.3168-.0827-.47803-.1231l-1.42812-.3559.54468-1.2563s.80844.215.7975.1991c.31063.0769.44844-.1256.50282-.2606l.71781-2.8766.11562.0288c-.04375-.0175-.08343-.0288-.11406-.0366l.51188-2.05344c.01375-.23312-.06688-.52719-.51125-.63812.01718-.01157-.79688-.19813-.79688-.19813l.29188-1.17187 1.51313.37781-.0013.00562c.2275.05657.4619.11032.7007.16469l.4497-1.80187 1.0965.27343-.4406 1.76657c.2944.06718.5906.135.8787.20687l.4375-1.755 1.0975.27344-.4493 1.8025Z" clip-rule="evenodd"/>
+                        </svg>                          
+                    </span>
+                    <h5>Marketing</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <!-- Music ---------------------------------------------------- -->
+                <article class="category">
+                    <span class="category__icon">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M17.316 4.052a.99.99 0 0 0-.9.14c-.262.19-.416.495-.416.82v8.566a4.573 4.573 0 0 0-2-.464c-1.99 0-4 1.342-4 3.443 0 2.1 2.01 3.443 4 3.443 1.99 0 4-1.342 4-3.443V6.801c.538.5 1 1.219 1 2.262 0 .56.448 1.013 1 1.013s1-.453 1-1.013c0-1.905-.956-3.18-1.86-3.942a6.391 6.391 0 0 0-1.636-.998 4 4 0 0 0-.166-.063l-.013-.005-.005-.002h-.002l-.002-.001ZM4 5.012c-.552 0-1 .454-1 1.013 0 .56.448 1.013 1 1.013h9c.552 0 1-.453 1-1.013 0-.559-.448-1.012-1-1.012H4Zm0 4.051c-.552 0-1 .454-1 1.013 0 .56.448 1.013 1 1.013h9c.552 0 1-.454 1-1.013 0-.56-.448-1.013-1-1.013H4Zm0 4.05c-.552 0-1 .454-1 1.014 0 .559.448 1.012 1 1.012h4c.552 0 1-.453 1-1.012 0-.56-.448-1.013-1-1.013H4Z" clip-rule="evenodd"/>
+                        </svg>                        
+                    </span>
+                    <h5>Music</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <!-- Business ---------------------------------------------------- -->
+                <article class="category">
+                    <span class="category__icon">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10.7367 14.5876c.895.2365 2.8528.754 3.1643-.4966.3179-1.2781-1.5795-1.7039-2.5053-1.9117-.1034-.0232-.1947-.0437-.2694-.0623l-.6025 2.4153c.0611.0152.1328.0341.2129.0553Zm.8452-3.5291c.7468.1993 2.3746.6335 2.6581-.5025.2899-1.16213-1.2929-1.5124-2.066-1.68348-.0869-.01923-.1635-.03619-.2262-.0518l-.5462 2.19058c.0517.0129.1123.0291.1803.0472Z"/>
+                            <path fill="currentColor" fill-rule="evenodd" d="M9.57909 21.7008c5.35781 1.3356 10.78401-1.9244 12.11971-7.2816 1.3356-5.35745-1.9247-10.78433-7.2822-12.11995C9.06034.963624 3.6344 4.22425 2.2994 9.58206.963461 14.9389 4.22377 20.3652 9.57909 21.7008ZM14.2085 8.0526c1.3853.47719 2.3984 1.1925 2.1997 2.5231-.1441.9741-.6844 1.4456-1.4013 1.6116.9844.5128 1.485 1.2987 1.0078 2.6612-.5915 1.6919-1.9987 1.8347-3.8697 1.4807l-.454 1.8196-1.0972-.2734.4481-1.7953c-.2844-.0706-.575-.1456-.8741-.2269l-.44996 1.8038-1.09594-.2735.45407-1.8234c-.10059-.0258-.20185-.0522-.30385-.0788-.15753-.0411-.3168-.0827-.47803-.1231l-1.42812-.3559.54468-1.2563s.80844.215.7975.1991c.31063.0769.44844-.1256.50282-.2606l.71781-2.8766.11562.0288c-.04375-.0175-.08343-.0288-.11406-.0366l.51188-2.05344c.01375-.23312-.06688-.52719-.51125-.63812.01718-.01157-.79688-.19813-.79688-.19813l.29188-1.17187 1.51313.37781-.0013.00562c.2275.05657.4619.11032.7007.16469l.4497-1.80187 1.0965.27343-.4406 1.76657c.2944.06718.5906.135.8787.20687l.4375-1.755 1.0975.27344-.4493 1.8025Z" clip-rule="evenodd"/>
+                        </svg>                          
+                    </span>
+                    <h5>Business</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Courses ************************************************************** -->
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <!-- Curso 1 -->
+            <article class="course">
+                <div class="course__image">
+                    <img src="../img/course1.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nulla beatae? Minima aspernatur earum soluta culpa?
+                    </p>
+                    <a href="../html/courses.html" class="btn btn-primary">Lear More</a>
+                </div>
+            </article>
+            <!-- Curso 2 -->
+            <article class="course">
+                <div class="course__image">
+                    <img src="../img/course2.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive SmartHome Website Design</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nulla beatae? Minima aspernatur earum soluta culpa?
+                    </p>
+                    <a href="../html/courses.html" class="btn btn-primary">Lear More</a>
+                </div>
+            </article>
+            <!-- Curso 3 -->
+            <article class="course">
+                <div class="course__image">
+                    <img src="../img/course3.jpg" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Admin Dashboard UI Design</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nulla beatae? Minima aspernatur earum soluta culpa?
+                    </p>
+                    <a href="../html/courses.html" class="btn btn-primary">Lear More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Sección HEADER ************************************************************** -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+            <!-- Pregunta 01 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 02 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 03 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 04 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 05 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 06 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 07 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 08 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 09 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+            <!-- Pregunta 10 -->
+            <article class="faq">
+                <div class="faq__icon">
+                    <i class="ri-add-fill"></i>  
+                </div>
+                <div class="question__answer">
+                    <h4>How do i know the right courses for me?</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore veniam vel officiis ducimus dolore tempore assumenda.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Sección Testimonials ************************************************************** -->
+    <section class="container testimonials__container mySwiper">
+        <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <!-- Testimonio 1 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Lionel Messi</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+            <!-- Testimonio 2 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar2.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Jim Carrey</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+            <!-- Testimonio 3 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar3.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Huge Jackman</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+            <!-- Testimonio 4 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Emma Watson</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+            <!-- Testimonio 5 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar5.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Pope Francis</h5>
+                    <small>Java Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+            <!-- Testimonio 6 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar6.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Spiderman</h5>
+                    <small>Friendly Neighbor</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+            <!-- Testimonio 7 ------------------------------------ -->
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="../img/avatar7.jpg" alt="">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Javier Milei</h5>
+                    <small>Presidente</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestiae earum ratione hic quaerat a reiciendis.</p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    
+    
+    <!-- Sección FOOTER ************************************************************** -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <!-- ---------- Footer 1 ---------- -->
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>EGATOR</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, illo velit est ab ipsum laborum perferendis.</p>
+            </div>
+            <!-- ---------- Footer 2 ---------- -->
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- ---------- Footer 3 ---------- -->
+            <div class="footer__3">
+                <h4>Primacy</h4>
+                <ul class="primacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <!-- ---------- Footer 4 ---------- -->
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+01 234 567 8910</p>
+                    <p>aguanteboquita@gmail.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-github-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ---------- Footer Copyright ---------- -->
+        <div class="footer__copyright">
+            <small>Copyright &copy; Egator Youtube Tutorials</small>
+        </div>
+    </footer>
+    
+    <!-- Sección JavaScript ************************************************************** -->
+    <!-- ========= Swiper JS ========= -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- ========= App js ========= -->
+    <script src="../js/app.js"> </script>
+    
+    <!-- ========= Swiper Inicialization ========= -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        // when window width is >= 600px
+        breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
